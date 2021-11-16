@@ -1,0 +1,9 @@
+extends layout
+
+block content 
+    h1 Login
+    form(action='/users/login',method='post')
+        input(type='text', name='userId')
+        input(type='password', name='password')
+        input(type='submit', balue='로그인')
+    p=result 

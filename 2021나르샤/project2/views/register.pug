@@ -1,0 +1,10 @@
+extends layout
+
+block content 
+    h1 회원 가입
+    form(action='/users/register',method='post')
+        input(type='text', name='userId',placeholder='id')
+        input(type='text', name='name',placeholder='name')
+        input(type='password', name='password')
+        input(type='submit', balue='로그인')
+    p=result 

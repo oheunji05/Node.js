@@ -1,0 +1,19 @@
+doctype html
+html
+  head
+    title= title
+    link(rel='stylesheet', href='/stylesheets/style.css')
+  body
+    h1 할래말래
+    ul 
+      li  
+        a(href='/') HOME 
+      li
+        a(href='/users') USERS 
+      li 
+        a(href='/users/login') LOGIN
+      li 
+        a(href='/users/logout') LOGOUT
+      li 
+        a(href='/users/register') REGISTER
+    block content
